@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: beige;
+
+}
+.container{
+    height: 90vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.timer .setTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setTime input{
+    height: 20vh;
+    width: 30vw;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: coral;
+    color: purple;
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+button{
+    height: 15vh;
+    width: 100%;
+    margin: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: #091921;
+    color: white;
+    outline: none;
+    border: none;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+}
